@@ -1,0 +1,254 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /*Header start*/
+  .menu ul li a{
+    font-size: 17px !important;
+    text-align: right;
+    padding-right: 0px !important;
+  }
+  /*Header end*/
+  /*slider start*/
+  header{
+    padding: 10px;
+  }
+  .s_contant {
+    margin-top: 0px;
+}
+.s_contant h1 {
+    font-size: 22px;
+}
+.s_contant h2 {
+    font-size: 18px;
+}
+.apple li {
+    margin-right: 20px !important;
+    padding-bottom: 63px;
+}
+.carousel-indicators {
+    bottom: 3px;
+}
+.c_edit li {
+    height: 11px;
+    width: 11px;
+      }
+  /*slider end*/
+  /*Feature start*/
+   .feature {
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+  .f_content h1{
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .f_content p{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+ 
+  .c_content{
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .c_image {
+    margin-bottom: -3px;
+    font-size: 40px;
+}
+  .c_component h2{
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .c_component p{
+    font-size: 14px;
+  }
+  /*Feature end*/
+  /*keep part start*/
+  .keep {
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+  .k_component h1{
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .k_component p{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .sub_form{
+    margin-bottom: 30px;
+  }
+  .form_content{
+    height: 35px;
+    margin-bottom: 6px;
+  }
+  .btn_form{
+    height: 35px;
+  }
+  .font_icon li{
+    font-size: 30px;
+  }
+  
+  /*keep part end*/
+  /*footer start*/
+  .component {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+footer{
+  padding-bottom: 80px;
+}
+  .component p{
+    font-size: 10px;
+  }
+
+  /*footer end*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*Header start*/
+  .menu ul li a{
+    font-size: 19px !important;
+    text-align: right;
+    padding-right: 0px !important;
+  }
+  /*Header end*/
+/*slider start*/
+.s_contant {
+    margin-top: 10px;
+}
+.s_contant h1 {
+    font-size: 27px;
+  }
+  .s_contant h2 {
+    font-size: 20px;
+    
+}
+.apple li {
+    padding-bottom: 69px;
+}
+.carousel-indicators {
+    bottom: 8px;
+}
+.c_edit li {
+    height: 13px;
+    width: 13px;
+}
+/*slider end*/
+/*Feature start*/
+ .feature {
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+ .f_content h1{
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+  .f_content p{
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+ 
+  .c_content{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  /*Feature end*/
+  /*keep part start*/
+  .keep{
+      padding-top: 70px;
+      padding-bottom: 75px;
+    }
+  .k_component h1{
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+  .k_component p{
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  .form_content{
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .sub_form{
+    margin-bottom: 45px;
+  }
+  .btn_form{
+    height: 40px;
+  }
+  /*keep part end*/
+  /*footer start*/
+  .component p{
+    font-size: 12px;
+  }
+  /*footer end*/
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*Header start*/
+  .menu ul li a{
+    font-size: 21px !important;
+    text-align: right;
+    padding-right: 0px !important;
+  }
+  /*Header end*/
+  /*slider start*/
+  .s_contant{
+    margin-top: 27px;
+  }
+  /*slider end*/
+  /*Feature start*/
+  .feature {
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+.f_content p{
+  font-size: 18px;
+}
+.c_content {
+    margin-bottom: 18px;
+}
+  /*Feature end*/
+  /*keep part start*/
+  .keep{
+    padding-top: 70px;
+    padding-bottom: 75px;
+  }
+  .k_component p{
+    font-size: 18px;
+  }
+  .sub_form{
+    margin-bottom: 45px;
+  }
+  .form_content{
+    height: 40px;
+  }
+  .btn_form{
+    height: 40px;
+  }
+  /*keep part end*/
+  /*footer start*/
+.fo_content {
+    padding-left: 22px;
+}
+.component p{
+  font-size: 14px;
+}
+  /*footer end*/
+}
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
